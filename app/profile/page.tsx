@@ -46,7 +46,7 @@ export default function ProfilePage() {
     <div className="min-h-screen bg-gradient-to-tr from-blue-300 via-blue-100 to-cyan-200 flex flex-col items-center justify-start px-6 py-12 font-sans">
       {/* Kata Sambutan */}
       <h1 className="text-4xl font-extrabold text-gray-900 mb-12 tracking-wide text-center max-w-3xl">
-        Selamat datang di Profile Anda!
+        Selamat datang di Halaman Profile!
       </h1>
 
       {/* Container kedua card berdampingan */}
