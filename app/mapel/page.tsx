@@ -7,18 +7,14 @@ const mapelList = [
   'Matematika',
   'Bahasa Indonesia',
   'Bahasa Inggris',
-  'Agama',
   'IPA',
-  'IPS',
-  'TIK',
-  'Sejarah',
 ];
 
 export default function MataPelajaranPage() {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen bg-gray-50 px-6 py-16">
+    <div className="min-h-screen bg-cyan-100 px-6 py-16">
       <div className="max-w-5xl mx-auto text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           <BookOpenText className="inline-block w-8 h-8 text-cyan-700 mr-2" />
@@ -33,7 +29,8 @@ export default function MataPelajaranPage() {
             <button
               key={mapel}
               onClick={() => router.push(`/kuis/mapel/${mapel.toLowerCase().replace(/\s/g, '-')}`)}
-              className="bg-white border border-cyan-100 hover:border-cyan-300 hover:shadow-md text-cyan-900 py-3 px-4 rounded-xl font-medium text-sm sm:text-base transition-all duration-200"
+              className="bg-white border border-cyan-100 hover:border-cyan-300 hover:shadow-md 
+              text-cyan-900 py-3 px-4 rounded-xl font-medium text-sm sm:text-base transition-all duration-200"
             >
               {mapel}
             </button>

@@ -42,10 +42,12 @@ export default function LoginPage() {
       </div>
 
       {/* Right Panel */}
-      <div className="w-full md:w-1/2 flex items-center justify-center px-6 py-12 bg-gradient-to-br from-gray-50 to-white">
+      <div className="w-full md:w-1/2 flex items-center justify-center px-6 py-12 
+      bg-gradient-to-br from-gray-50 to-white">
         <form
           onSubmit={handleLogin}
-          className="w-full max-w-md bg-white border border-gray-200 rounded-2xl shadow-lg p-10 transition-all duration-300"
+          className="w-full max-w-md bg-white border border-gray-200 rounded-2xl 
+          shadow-lg p-10 transition-all duration-300"
         >
           <h2 className="text-3xl font-semibold mb-8 text-center text-gray-800 tracking-tight">
             Selamat Datang Kembali
@@ -56,7 +58,8 @@ export default function LoginPage() {
             <label className="block mb-2 text-sm font-medium text-gray-700">
               Email
             </label>
-            <div className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg focus-within:ring-2 focus-within:ring-blue-500 transition">
+            <div className="flex items-center gap-2 px-4 py-2 border border-gray-300 
+            rounded-lg focus-within:ring-2 focus-within:ring-blue-500 transition">
               <Mail className="w-5 h-5 text-gray-400" />
               <input
                 type="email"
@@ -74,7 +77,8 @@ export default function LoginPage() {
             <label className="block mb-2 text-sm font-medium text-gray-700">
               Password
             </label>
-            <div className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg focus-within:ring-2 focus-within:ring-blue-500 transition">
+            <div className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg 
+            focus-within:ring-2 focus-within:ring-blue-500 transition">
               <Lock className="w-5 h-5 text-gray-400" />
               <input
                 type="password"
@@ -90,7 +94,8 @@ export default function LoginPage() {
           {/* Login Button */}
           <button
             type="submit"
-            className="w-full bg-cyan-600 hover:bg-cyan-700 text-white text-sm font-medium py-3 rounded-lg shadow-md transition-all"
+            className="w-full bg-cyan-600 hover:bg-cyan-700 text-white text-sm 
+            font-medium py-3 rounded-lg shadow-md transition-all"
           >
             Login Sebagai Siswa
           </button>
@@ -99,7 +104,8 @@ export default function LoginPage() {
           <button
             type="button"
             onClick={goToAdminLogin}
-            className="w-full mt-4 bg-gray-300 hover:bg-gray-400 text-sm text-gray-700 font-medium py-3 rounded-lg shadow-inner transition-all"
+            className="w-full mt-4 bg-gray-300 hover:bg-gray-400 text-sm text-gray-700 
+            font-medium py-3 rounded-lg shadow-inner transition-all"
           >
             Admin
           </button>
