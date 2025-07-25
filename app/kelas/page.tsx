@@ -9,7 +9,7 @@ export default function KelasPage() {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen bg-gray-50 px-6 py-16">
+    <div className="min-h-screen bg-cyan-100 px-6 py-16">
       <div className="max-w-5xl mx-auto text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           <GraduationCap className="inline-block w-8 h-8 text-cyan-700 mr-2" />
@@ -24,7 +24,8 @@ export default function KelasPage() {
             <button
               key={kelas}
               onClick={() => router.push(`/kuis/kelas/${kelas.split(' ')[1]}`)}
-              className="bg-white border border-gray-200 hover:border-cyan-300 hover:shadow-md text-gray-900 py-3 px-4 rounded-xl font-medium text-sm sm:text-base transition-all duration-200"
+              className="bg-white border border-gray-200 hover:border-cyan-300 hover:shadow-md 
+              text-gray-900 py-3 px-4 rounded-xl font-medium text-sm sm:text-base transition-all duration-200"
             >
               {kelas}
             </button>

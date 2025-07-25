@@ -27,7 +27,8 @@ export default function Sidebar() {
         <h2 className="text-xl font-bold text-sky-400">Admin Panel</h2>
       </div>
 
-      <nav className="flex md:flex-col flex-row md:items-start items-center md:space-y-1 space-x-2 md:space-x-0 p-2 md:p-4 overflow-x-auto">
+      <nav className="flex md:flex-col flex-row md:items-start items-center md:space-y-1 space-x-2 
+      md:space-x-0 p-2 md:p-4 overflow-x-auto">
         {menu.map(({ label, icon: Icon, href }) => {
           const isActive = pathname === href;
 
@@ -35,7 +36,8 @@ export default function Sidebar() {
             <Link
               key={label}
               href={href}
-              className={`flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200
+              className={`flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium 
+                transition-all duration-200
               ${
                 isActive
                   ? "bg-gray-700 text-sky-400 font-semibold"

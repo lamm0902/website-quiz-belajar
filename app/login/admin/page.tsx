@@ -34,10 +34,12 @@ export default function AdminLoginPage() {
       </div>
 
       {/* Kanan / Login Form */}
-      <div className="w-full md:w-1/2 flex items-center justify-center px-6 py-12 bg-gradient-to-br from-gray-50 to-white">
+      <div className="w-full md:w-1/2 flex items-center justify-center px-6 py-12 
+      bg-gradient-to-br from-gray-50 to-white">
         <form
           onSubmit={handleLogin}
-          className="w-full max-w-md bg-white border border-gray-200 rounded-2xl shadow-lg p-10 transition-all duration-300"
+          className="w-full max-w-md bg-white border border-gray-200 rounded-2xl shadow-lg 
+          p-10 transition-all duration-300"
         >
           <h2 className="text-3xl font-semibold mb-8 text-center text-gray-800 tracking-tight">
             Login Admin
@@ -48,7 +50,8 @@ export default function AdminLoginPage() {
             <label className="block mb-2 text-sm font-medium text-gray-700">
               Email
             </label>
-            <div className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg focus-within:ring-2 focus-within:ring-gray-800 transition">
+            <div className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg 
+            focus-within:ring-2 focus-within:ring-gray-800 transition">
               <Mail className="w-5 h-5 text-gray-400" />
               <input
                 type="email"
@@ -66,7 +69,8 @@ export default function AdminLoginPage() {
             <label className="block mb-2 text-sm font-medium text-gray-700">
               Password
             </label>
-            <div className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg focus-within:ring-2 focus-within:ring-gray-800 transition">
+            <div className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg 
+            focus-within:ring-2 focus-within:ring-gray-800 transition">
               <Lock className="w-5 h-5 text-gray-400" />
               <input
                 type="password"
@@ -82,7 +86,8 @@ export default function AdminLoginPage() {
           {/* Submit */}
           <button
             type="submit"
-            className="w-full bg-gray-900 hover:bg-gray-800 text-white text-sm font-medium py-3 rounded-lg shadow-md transition-all"
+            className="w-full bg-gray-900 hover:bg-gray-800 text-white text-sm font-medium 
+            py-3 rounded-lg shadow-md transition-all"
           >
             Masuk Admin
           </button>
@@ -92,7 +97,7 @@ export default function AdminLoginPage() {
             Kembali ke{" "}
             <a
               href="/login"
-              className="text-gray-800 hover:underline font-medium transition"
+              className="text-blue-500 hover:underline font-medium transition"
             >
               Login Siswa
             </a>
